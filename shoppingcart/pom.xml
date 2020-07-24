@@ -12,7 +12,7 @@
     <artifactId>shoppingcart</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>shoppingcart</name>
-    <description>User Security Project</description>
+    <description>Java Deployment Project</description>
 
     <properties>
         <java.version>11</java.version>
@@ -66,6 +66,13 @@
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
             <scope>test</scope>
         </dependency>
 
